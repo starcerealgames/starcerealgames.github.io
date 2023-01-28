@@ -7,9 +7,9 @@ import TeamMemberCard from './Components/TeamMemberCard';
 
 const App = () => {
   return (
-    <div>
+    <div style={{backgroundColor: "#F2F4FA", height: "100%" }}>
       <Header />
-      <Container>
+      <Container >
         <Box sx={{ flexGrow: 1 }}>
           <TeamMemberCard />
         </Box>
