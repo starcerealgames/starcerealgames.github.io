@@ -18,10 +18,9 @@ const teamMemberInfo = [
   {
     name: "MoldyCereal",
     imageDesc: "fire_spell_2",
-    blurb:
-      "Hi y'all! I'm eager to develop splendid games for all.",
-    socials: "Discord",
-    link: "https://discord.gg/WmEZ59rbKT",
+    blurb: "Hi y'all! I'm eager to develop splendid games for all.",
+    socials: "Twitter",
+    link: "https://twitter.com/starcerealgames",
   },
   {
     name: "jolteons",
@@ -69,9 +68,11 @@ const teamMemberInfo = [
 
 const App = () => {
   return (
-    <div style={{ backgroundColor: "#F2F4FA", height: "100%" }}>
+    <div
+      style={{ backgroundColor: "#F2F4FA", height: "100%", minHeight: "100vh" }}
+    >
       <Header />
-      <Container>
+      <Container sx={{ paddingTop: "15px" }}>
         <Box sx={{ flexGrow: 1 }}>
           {/* <Typography sx={{textAlign: "center"}} variant="h4">
             About Us
@@ -81,15 +82,32 @@ const App = () => {
             spacing={1}
             direction="row"
             style={{
-              minHeight: "100vh",
+              minHeight: "90vh",
               paddingLeft: "20px",
               paddingRight: "20px",
-              paddingTop: "50px",
+              // paddingTop: "50px",
+              textAlign: "center",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              paddingBottom: "10px",
             }}
             sx={{ flexGrow: 1 }}
           >
             {teamMemberInfo.map((member) => (
-              <Grid item xs={12} sm={6} md={6} lg={3}>
+              <Grid
+                sx={{
+                  textAlign: "center",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+                item
+                xs={12}
+                sm={6}
+                md={6}
+                lg={3}
+              >
                 <TeamMemberCard member={member} />
               </Grid>
             ))}

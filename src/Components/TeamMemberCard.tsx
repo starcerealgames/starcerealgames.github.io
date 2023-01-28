@@ -46,7 +46,7 @@ const TeamMemberCard = (props: any) => {
           size="small"
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = props.member.link;
+            window.open(props.member.link);
           }}
         >
           {props.member.socials}
