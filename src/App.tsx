@@ -4,6 +4,7 @@ import "./App.css";
 import { Container, Box, Grid } from "@mui/material";
 import Header from "./Components/Header";
 import TeamMemberCard from "./Components/TeamMemberCard";
+import { Typography } from "@mui/material";
 
 interface teamMemberInfo {
   name: string;
@@ -18,7 +19,7 @@ const teamMemberInfo = [
     name: "MoldyCereal",
     imageDesc: "fire_spell_2",
     blurb:
-      "Hi y'all! I'm a front end developer eager to develop splendid games for all.",
+      "Hi y'all! I'm eager to develop splendid games for all.",
     socials: "Discord",
     link: "https://discord.gg/WmEZ59rbKT",
   },
@@ -72,6 +73,9 @@ const App = () => {
       <Header />
       <Container>
         <Box sx={{ flexGrow: 1 }}>
+          {/* <Typography sx={{textAlign: "center"}} variant="h4">
+            About Us
+          </Typography> */}
           <Grid
             container
             spacing={1}

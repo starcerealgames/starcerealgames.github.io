@@ -1,11 +1,12 @@
 import AppBar from "@mui/material/AppBar";
 import StadiumIcon from "@mui/icons-material/Stadium";
-import StarsIcon from '@mui/icons-material/Stars';
+import StarIcon from '@mui/icons-material/Star';
 import { Button, IconButton, Toolbar, Typography } from "@mui/material";
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 const Header = () => {
   return (
-    <AppBar position="sticky">
+    <AppBar position='relative'>
       <Toolbar>
         <IconButton
           size="large"
@@ -14,7 +15,8 @@ const Header = () => {
           aria-label="menu"
           sx={{ mr: 2 }}
         >
-          <StadiumIcon />
+          <StarIcon />
+          <SportsEsportsIcon />
         </IconButton>
         <Typography variant="h6" style={{ userSelect:"none"}} textAlign={"center"} component="div" sx={{ flexGrow: 1 }}>
           star cereal games
