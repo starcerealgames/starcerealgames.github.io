@@ -19,9 +19,9 @@ const Header = () => {
           <SportsEsportsIcon />
         </IconButton> */}
         <img
-          src={require(`../Static/starcereal.png`)}
+          src={require(`../Static/sprites/logo192.png`)}
           alt="logo"
-          style={{ width: "50px", height: "50px" }}
+          style={{ width: "50px", height: "50px", background: "black" }}
         />
         <Typography
           variant="h6"
@@ -36,7 +36,7 @@ const Header = () => {
           color="inherit"
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://discord.gg/WmEZ59rbKT")
+            window.open("https://discord.gg/VK3hNKjCrf")
           }}
         >
           Contact
