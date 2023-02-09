@@ -28,6 +28,7 @@ const GameCard = (props: any) => {
           textAlign: "center",
           overflow: "visible",
           width: 400,
+          userSelect: "none"
         }}
         onClick={(e) => {
             e.preventDefault();
@@ -37,13 +38,13 @@ const GameCard = (props: any) => {
         src={require(`../Static/sprites/${props.game.imageDesc}.png`)}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography style={{ userSelect: "none" }} gutterBottom variant="h5" component="div">
           {props.game.name}
         </Typography>
-        <Typography sx={{ flexGrow: 1 }}>
+        <Typography style={{ userSelect: "none" }} sx={{ flexGrow: 1 }}>
             {props.game.description}
         </Typography>
-        <Typography>Check it out: </Typography>
+        <Typography style={{ userSelect: "none" }}>Check it out: </Typography>
         <Button
           size="small"
           onClick={(e) => {
