@@ -112,7 +112,7 @@ const App = () => {
               style={{
                 paddingLeft: "20px",
                 paddingRight: "20px",
-                paddingTop: "20px",
+                paddingTop: "50px",
                 textAlign: "center",
                 display: "flex",
                 alignItems: "center",
@@ -140,7 +140,7 @@ const App = () => {
               ))}
             </Grid>
           </Box>
-          <Typography style={{ userSelect: "none" }} sx={{textAlign: "center", paddingTop:"10px"}} variant="h4">
+          <Typography style={{ userSelect: "none" }} sx={{textAlign: "center", paddingTop:"20px"}} variant="h4">
             About Us
           </Typography>
           <Divider variant="middle" />
@@ -152,12 +152,12 @@ const App = () => {
               minHeight: "90vh",
               paddingLeft: "20px",
               paddingRight: "20px",
-              paddingTop: "20px",
+              paddingTop: "0px",
+              paddingBottom: "10px",
               textAlign: "center",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              paddingBottom: "10px",
             }}
             sx={{ flexGrow: 1 }}
           >

@@ -32,11 +32,11 @@ const TeamMemberCard = (props: any) => {
         alt={props.member.imageDesc}
         src={require(`../Static/sprites/${props.member.imageDesc}.png`)}
       />
-      <CardContent>
+      <CardContent sx={{paddingTop : 0, paddingBottom: 0, paddingRight: 2, paddingLeft: 2}}>
         <Typography style={{ userSelect: "none" }} gutterBottom variant="h5" component="div">
           {props.member.name}
         </Typography>
-        <Typography style={{ userSelect: "none" }} variant="body2" color="text.secondary" sx={{ flexGrow: 1 }}>
+        <Typography style={{ userSelect: "none", fontSize: 20 }} variant="body2" color="text.secondary" sx={{ flexGrow: 1 }}>
           {props.member.blurb}
         </Typography>
       </CardContent>
