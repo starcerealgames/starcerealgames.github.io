@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.6bd27921.js",
+    "main.js": "/static/js/main.0f78af38.js",
     "static/js/787.4a3b66a3.chunk.js": "/static/js/787.4a3b66a3.chunk.js",
     "static/media/goblinrunner.png": "/static/media/goblinrunner.a1ced350ad168a4c6b42.png",
     "static/media/logo192.png": "/static/media/logo192.4e2ef96723e9390cc8de.png",
     "static/media/metroidvania.png": "/static/media/metroidvania.92528b94e93a5ff20e06.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.6bd27921.js.map": "/static/js/main.6bd27921.js.map",
+    "main.0f78af38.js.map": "/static/js/main.0f78af38.js.map",
     "787.4a3b66a3.chunk.js.map": "/static/js/787.4a3b66a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6bd27921.js"
+    "static/js/main.0f78af38.js"
   ]
 }
