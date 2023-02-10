@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const TeamMemberCard = (props: any) => {
   return (
-    <Zoom in={true} appear style={{ transitionDelay: '200ms'}}>
+    <Zoom in={true} appear style={{ transitionDelay: '500ms'}}>
       <Card
         sx={{
           width: 200,
