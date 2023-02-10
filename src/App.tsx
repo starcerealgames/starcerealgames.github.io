@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Container, Box, Grid, Divider } from "@mui/material";
+import { Container, Box, Grid, Divider, Zoom } from "@mui/material";
 import Header from "./Components/Header";
 import TeamMemberCard from "./Components/TeamMemberCard";
 import { Typography } from "@mui/material";
@@ -100,10 +100,14 @@ const App = () => {
       <Header />
       <Container sx={{ paddingTop: "15px" }}>
         <Box sx={{ flexGrow: 1 }}>
-        <Typography style={{ userSelect: "none" }} sx={{textAlign: "center"}} variant="h4">
+          <Typography
+            style={{ userSelect: "none" }}
+            sx={{ textAlign: "center" }}
+            variant="h4"
+          >
             Our Projects
           </Typography>
-          <Divider variant="middle"  />
+          <Divider variant="middle" />
           <Box>
             <Grid
               container
@@ -140,7 +144,11 @@ const App = () => {
               ))}
             </Grid>
           </Box>
-          <Typography style={{ userSelect: "none" }} sx={{textAlign: "center", paddingTop:"20px"}} variant="h4">
+          <Typography
+            style={{ userSelect: "none" }}
+            sx={{ textAlign: "center", paddingTop: "20px" }}
+            variant="h4"
+          >
             About Us
           </Typography>
           <Divider variant="middle" />
@@ -178,9 +186,11 @@ const App = () => {
                 <TeamMemberCard member={member} />
               </Grid>
             ))}
-          
           </Grid>
-          <Typography style={{ userSelect: "none" }} sx={{textAlign: "center"}}>
+          <Typography
+            style={{ userSelect: "none", color: "#89376D" }}
+            sx={{ textAlign: "center" }}
+          >
             Page by Pat 2023
           </Typography>
         </Box>

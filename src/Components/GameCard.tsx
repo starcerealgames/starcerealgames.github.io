@@ -7,55 +7,65 @@ import {
   Button,
 } from "@mui/material";
 import Typography from "@mui/material/Typography";
+import Grow from "@mui/material/Grow";
 
 const GameCard = (props: any) => {
   return (
-    <Card
-      sx={{
-        width: 400,
-        height: 400,
-        padding: "10px",
-        textAlign: "center",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <img
-        style={{
-          imageRendering: "crisp-edges",
-          textAlign: "center",
-          overflow: "visible",
+    <Grow in={true}>
+      <Card
+        sx={{
           width: 400,
-          userSelect: "none"
+          height: 400,
+          padding: "10px",
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          borderRadius: "10px",
         }}
-        onClick={(e) => {
-            e.preventDefault();
-            window.open(props.game.link);
+      >
+        <img
+          style={{
+            imageRendering: "crisp-edges",
+            textAlign: "center",
+            overflow: "visible",
+            width: 400,
+            userSelect: "none",
           }}
-        alt={props.game.imageDesc}
-        src={require(`../Static/sprites/${props.game.imageDesc}.png`)}
-      />
-      <CardContent>
-        <Typography style={{ userSelect: "none" }} gutterBottom variant="h5" component="div">
-          {props.game.name}
-        </Typography>
-        <Typography style={{ userSelect: "none" }} sx={{ flexGrow: 1 }}>
-            {props.game.description}
-        </Typography>
-        <Typography style={{ userSelect: "none" }}>Check it out: </Typography>
-        <Button
-          size="small"
           onClick={(e) => {
             e.preventDefault();
             window.open(props.game.link);
           }}
-        >
-        {props.game.name}
-        </Button>
-      </CardContent>
-    </Card>
+          alt={props.game.imageDesc}
+          src={require(`../Static/sprites/${props.game.imageDesc}.png`)}
+        />
+        <CardContent>
+          <Typography
+            style={{ userSelect: "none" }}
+            gutterBottom
+            variant="h5"
+            component="div"
+          >
+            {props.game.name}
+          </Typography>
+          <Typography style={{ userSelect: "none" }} sx={{ flexGrow: 1 }}>
+            {props.game.description}
+          </Typography>
+          <Typography style={{ userSelect: "none" }}>Check it out: </Typography>
+          <Button
+            style={{ color: "#89376D" }}
+            size="small"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(props.game.link);
+            }}
+          >
+            {props.game.name}
+          </Button>
+        </CardContent>
+      </Card>
+    </Grow>
   );
 };
 
