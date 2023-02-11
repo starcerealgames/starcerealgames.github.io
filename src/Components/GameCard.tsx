@@ -32,6 +32,7 @@ const GameCard = (props: any) => {
             overflow: "visible",
             width: 400,
             userSelect: "none",
+            cursor: "pointer",
           }}
           onClick={(e) => {
             e.preventDefault();
