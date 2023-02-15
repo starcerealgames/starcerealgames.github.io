@@ -56,8 +56,8 @@ const TeamMemberCard = (props: any) => {
           </Typography>
         </CardContent>
         <CardActions disableSpacing sx={{ bottom: 0, left: 0, mt: "auto" }}>
-          <Typography style={{ userSelect: "none" }}>Socials: </Typography>
-          <Button
+          <Typography style={{ userSelect: "none" }}>{props.member.role}</Typography>
+          {/* <Button
             style={{ color: "#89376D" }}
             size="small"
             onClick={(e) => {
@@ -66,7 +66,7 @@ const TeamMemberCard = (props: any) => {
             }}
           >
             {props.member.socials}
-          </Button>
+          </Button> */}
         </CardActions>
       </Card>
     </Zoom>

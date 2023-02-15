@@ -36,13 +36,15 @@ const gameCardInfo = [
 const teamMemberInfo = [
   {
     name: "MoldyCereal",
+    role: "Programmer",
     imageDesc: "fire_spell_2",
-    blurb: "Hi y'all! I'm excited to make fun games.",
+    blurb: "certified gamer",
     socials: "itch.io",
     link: "https://starcerealgames.itch.io/",
   },
   {
     name: "jolteons",
+    role: "Artist",
     imageDesc: "regeneration",
     blurb: "potatoes",
     socials: "Discord",
@@ -50,6 +52,7 @@ const teamMemberInfo = [
   },
   {
     name: "Jimmy2Hands",
+    role: "Programmer",
     imageDesc: "attack_boost",
     blurb: "SKOL",
     socials: "Discord",
@@ -57,6 +60,7 @@ const teamMemberInfo = [
   },
   {
     name: "Nexthy",
+    role: "Programmer",
     imageDesc: "critical_boost",
     blurb: "안녕하세요! TFT gamer :)",
     socials: "Discord",
@@ -64,6 +68,7 @@ const teamMemberInfo = [
   },
   {
     name: "Ashmasterc",
+    role: "Artist",
     imageDesc: "negative_status_resistance",
     blurb: "In the interest of time I won't tell you anything.",
     socials: "Discord",
@@ -71,6 +76,7 @@ const teamMemberInfo = [
   },
   {
     name: "dankleen",
+    role: "Artist/Composer",
     imageDesc: "swiftness",
     blurb: "I LOVE MY SON ATTICUS",
     socials: "Discord",
@@ -78,6 +84,7 @@ const teamMemberInfo = [
   },
   {
     name: "honeybeebs",
+    role: "Artist",
     imageDesc: "lucky_boost",
     blurb: "wha-",
     socials: "Discord",
@@ -85,6 +92,7 @@ const teamMemberInfo = [
   },
   {
     name: "Boney",
+    role: "Composer",
     imageDesc: "magic_amplification",
     blurb: "shiba lover",
     socials: "Discord",
