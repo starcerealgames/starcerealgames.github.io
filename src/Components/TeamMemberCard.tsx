@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const TeamMemberCard = (props: any) => {
   return (
-    <Zoom in={true} appear style={{ transitionDelay: '500ms'}}>
+    <Zoom in={true} appear style={{ transitionDelay: "500ms" }}>
       <Card
         sx={{
           width: 200,
@@ -56,7 +56,9 @@ const TeamMemberCard = (props: any) => {
           </Typography>
         </CardContent>
         <CardActions disableSpacing sx={{ bottom: 0, left: 0, mt: "auto" }}>
-          <Typography style={{ userSelect: "none" }}>{props.member.role}</Typography>
+          <Typography style={{ userSelect: "none" }}>
+            {props.member.role}
+          </Typography>
           {/* <Button
             style={{ color: "#89376D" }}
             size="small"

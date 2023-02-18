@@ -11,7 +11,7 @@ import Grow from "@mui/material/Grow";
 
 const GameCard = (props: any) => {
   return (
-    <Grow in={true} appear style={{ transitionDelay: '150ms'}}>
+    <Grow in={true} appear style={{ transitionDelay: "150ms" }}>
       <Card
         sx={{
           width: 400,
