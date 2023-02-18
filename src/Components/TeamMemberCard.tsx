@@ -63,7 +63,7 @@ const TeamMemberCard = (props: any) => {
             onClick={(e) => {
               e.preventDefault();
               window.open(props.member.link);
-            }}
+            }}  
           >
             {props.member.socials}
           </Button> */}
