@@ -168,7 +168,7 @@ const App = () => {
               minHeight: "90vh",
               paddingLeft: "20px",
               paddingRight: "20px",
-              paddingTop: "0px",
+              paddingTop: "20px",
               paddingBottom: "10px",
               textAlign: "center",
               display: "flex",
