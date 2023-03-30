@@ -9,6 +9,7 @@ import GameCard from "./Components/GameCard";
 
 // in order to add to git hub page
 // 1) npm run deploy
+// 2) gh-pages -d build
 
 interface teamMemberInfo {
   name: string;
