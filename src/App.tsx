@@ -20,23 +20,29 @@ interface teamMemberInfo {
 
 const gameCardInfo = [
   {
-    name: "Goblin Runner 1077",
-    imageDesc: "goblinrunner",
-    description: "MoldyCereal's first solo game based on Vampire Survivors.",
-    link: "https://starcerealgames.itch.io/goblin-runner-1077",
+    name: "Amara",
+    imageDesc: "amara1",
+    description: "Our group's first game, created for Metroidvania 19! Ranked Top 10% and #12 out of 133 submissions.",
+    link: "https://starcerealgames.itch.io/amara",
   },
   {
-    name: "Metroidvania Jam",
-    imageDesc: "metroidvania",
-    description: "Our group's first game jam, starting Feb 15, 2023!",
-    link: "https://itch.io/jam/metroidvania-month-19",
+    name: "Slime RPG",
+    imageDesc: "slimerpg",
+    description: "Upcoming collab between starcereal and honeybeebs, based off early 2000s flash game, Stick RPG.",
+    link: "https://starcerealgames.itch.io/",
+  },
+  {
+    name: "Goblin Runner 1077",
+    imageDesc: "goblinrunner",
+    description: "starcereal's first solo game based on Vampire Survivors.",
+    link: "https://starcerealgames.itch.io/goblin-runner-1077",
   },
 ];
 
 const teamMemberInfo = [
   {
-    name: "MoldyCereal",
-    role: "Programmer",
+    name: "starcereal",
+    role: "Game Director/ Programmer",
     imageDesc: "fire_spell_2",
     blurb: "certified gamer",
     socials: "itch.io",
@@ -47,6 +53,14 @@ const teamMemberInfo = [
     role: "Artist",
     imageDesc: "regeneration",
     blurb: "potatoes",
+    socials: "Discord",
+    link: "https://discord.gg/VK3hNKjCrf",
+  },
+  {
+    name: "honeybeebs",
+    role: "Coordinator/Artist",
+    imageDesc: "lucky_boost",
+    blurb: "wha-",
     socials: "Discord",
     link: "https://discord.gg/VK3hNKjCrf",
   },
@@ -71,14 +85,6 @@ const teamMemberInfo = [
     role: "Artist",
     imageDesc: "negative_status_resistance",
     blurb: "In the interest of time I won't tell you anything.",
-    socials: "Discord",
-    link: "https://discord.gg/VK3hNKjCrf",
-  },
-  {
-    name: "honeybeebs",
-    role: "Artist",
-    imageDesc: "lucky_boost",
-    blurb: "wha-",
     socials: "Discord",
     link: "https://discord.gg/VK3hNKjCrf",
   },
@@ -124,7 +130,7 @@ const App = () => {
               style={{
                 paddingLeft: "20px",
                 paddingRight: "20px",
-                paddingTop: "50px",
+                paddingTop: "20px",
                 textAlign: "center",
                 display: "flex",
                 alignItems: "center",

@@ -15,14 +15,15 @@ const GameCard = (props: any) => {
       <Card
         sx={{
           width: 400,
-          height: 400,
-          padding: "10px",
+          height: 500,
+          // padding: "10px",
           textAlign: "center",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "10px",
+          marginTop: '10px',
         }}
       >
         <img
@@ -50,7 +51,7 @@ const GameCard = (props: any) => {
           >
             {props.game.name}
           </Typography>
-          <Typography style={{ userSelect: "none" }} sx={{ flexGrow: 1 }}>
+          <Typography style={{ userSelect: "none",  }} sx={{ flex: 1 }}>
             {props.game.description}
           </Typography>
           <Typography style={{ userSelect: "none" }}>Check it out: </Typography>
